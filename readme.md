@@ -1,9 +1,5 @@
 # Processo Seletivo CROSSBOTS - UTFPR
 
-## Informações
-
-RA: A2720124
-
 ## Como rodar
 
 ```bash
