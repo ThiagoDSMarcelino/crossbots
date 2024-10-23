@@ -17,16 +17,15 @@ void print_matrix(int *matrix, int n)
     {
         for (size_t j = 0; j < n; j++)
         {
-            printf("%2d ", get_matrix(matrix, n, i, j));
+            printf("%d ", get_matrix(matrix, n, i, j));
         }
-        printf("\n\n");
+        printf("\n");
     }
 }
 
 int calc_itinerary(int *matrix, int n)
 {
     int distance = 0;
-
     int init_city = 0;
     int previous_city = 0;
     int current_city = 0;
